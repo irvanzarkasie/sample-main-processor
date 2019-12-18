@@ -40,8 +40,8 @@ result = PipeExecutor.get_execution_result(
       CommonHiveReadWritePipeline.insert_to_table
     ], 
     **{
-        "input_table":"default.test20", 
-        "output_table":"default.test30", 
+        "input_table":"default.test10", 
+        "output_table":"default.test10", 
         "input":None, 
         "output":None,
         "sqlcontext": hive_context
