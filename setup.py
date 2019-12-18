@@ -18,6 +18,5 @@ setuptools.setup(
     author_email="expecc@expecc.com",
     description="Sample processor",
     packages=setuptools.find_packages(),
-    include_package_data=True,
-    install_requires=load_requirements("requirements.txt")
+    include_package_data=True
 )
